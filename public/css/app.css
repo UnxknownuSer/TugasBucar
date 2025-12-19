@@ -1,0 +1,12 @@
+/* Minimal app.css fallback — this file exists so layouts can reference it when Vite build is not present.
+   The real Tailwind utilities are provided by the CDN script in the layout fallback. */
+
+html, body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Basic container spacing used by layouts */
+.container { max-width: 1280px; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
+
+/* Small helper to ensure links are visible before Tailwind loads */
+a { color: #3b82f6; }
